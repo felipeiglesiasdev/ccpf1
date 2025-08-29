@@ -11,7 +11,7 @@
 
         <!-- Email Address -->
         <div>
-            <x-input-label for="email" :value="__('Email')" />
+            <x-input-label for="email" :value="__('Email')" class="sr-only"/>
             <div class="relative">
                 <div class="absolute inset-y-0 left-0 h-full flex items-center pl-3 pointer-events-none">
                     <i class="bi bi-envelope-fill text-gray-400"></i>

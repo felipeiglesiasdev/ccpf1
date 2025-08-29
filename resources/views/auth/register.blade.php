@@ -10,7 +10,7 @@
 
         <!-- Campo de Nome -->
         <div>
-            <x-input-label for="name" :value="__('Name')" />
+            <x-input-label for="name" :value="__('Name')" class="sr-only"/>
             <div class="relative">
                 <div class="absolute inset-y-0 left-0 h-full flex items-center pl-3 pointer-events-none">
                     <i class="bi bi-person-fill text-gray-400"></i>
@@ -22,7 +22,7 @@
 
         <!-- Campo de E-mail -->
         <div>
-            <x-input-label for="email" :value="__('Email')" />
+            <x-input-label for="email" :value="__('Email')" class="sr-only"/>
             <div class="relative">
               <div class="absolute inset-y-0 left-0 h-full flex items-center pl-3 pointer-events-none">
                 <i class="bi bi-envelope-fill text-gray-400"></i>
@@ -35,7 +35,7 @@
 
         <!-- Password -->
         <div>
-            <x-input-label for="password" :value="__('Password')" />
+            <x-input-label for="password" :value="__('Password')" class="sr-only" />
             <div class="relative">
                 <div class="absolute inset-y-0 left-0 h-full flex items-center pl-3 pointer-events-none">
                     <i class="bi bi-lock-fill text-gray-400"></i>
@@ -49,7 +49,7 @@
 
         <!-- Confirm Password -->
         <div>
-            <x-input-label for="password_confirmation" :value="__('Confirm Password')" />
+            <x-input-label for="password_confirmation" :value="__('Confirm Password')" class="sr-only"/>
             <div class="relative">
                 <div class="absolute inset-y-0 left-0 h-full flex items-center pl-3 pointer-events-none">
                     <i class="bi bi-lock-fill text-gray-400"></i>
